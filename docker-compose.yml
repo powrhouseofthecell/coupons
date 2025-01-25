@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+  coupons:
+    build: .
+    ports:
+      - '3060:3060'
+      - '3061:3061'
+    container_name: coupons
